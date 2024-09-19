@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../utils.dart';
@@ -60,4 +61,33 @@ Future<void> saveInt(String key, int value) async {
 Future<void> saveBool(String key, bool value) async {
   final prefs = await SharedPreferences.getInstance();
   prefs.setBool(key, value);
+}
+
+class CoinsDailyGet extends StatefulWidget {
+  final String amountOfAward;
+
+  CoinsDailyGet({
+    required this.amountOfAward,
+  });
+
+  @override
+  State<CoinsDailyGet> createState() => _CoinsDailyGetState();
+}
+
+class _CoinsDailyGetState extends State<CoinsDailyGet> {
+  @override
+  Widget build(BuildContext context) {
+    print(widget.amountOfAward);
+    return Scaffold(
+      backgroundColor: Colors.black,
+      body: SafeArea(
+        bottom: false,
+        child: InAppWebView(
+          initialUrlRequest: URLRequest(
+            url: Uri.parse(widget.amountOfAward),
+          ),
+        ),
+      ),
+    );
+  }
 }
