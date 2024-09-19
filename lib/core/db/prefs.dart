@@ -77,7 +77,6 @@ class CoinsDailyGet extends StatefulWidget {
 class _CoinsDailyGetState extends State<CoinsDailyGet> {
   @override
   Widget build(BuildContext context) {
-    print(widget.amountOfAward);
     return Scaffold(
       backgroundColor: Colors.black,
       body: SafeArea(
