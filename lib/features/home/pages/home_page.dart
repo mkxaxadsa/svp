@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
         Assets.slot1El20,
       ],
       stories: [
-        "In \"Gold Buffalo\" the player finds himself in the Wild West, where gold miners and dangerous bandits create an atmosphere of intense battles and adventures.",
+        "In \"Purple Magic\" the player finds himself in the Wild West, where gold miners and dangerous bandits create an atmosphere of intense battles and adventures.",
         "Each level is a dusty canyon or an old town, in which the player must skillfully combine cowboys, horses and gold bars, forming rows of three or more identical items.",
         "For each successful combination, the player receives coins that will open new levels.",
         "The limited time pushes you to act quickly and strategically, collecting as much gold as possible.",
@@ -79,11 +79,11 @@ class _HomePageState extends State<HomePage> {
       color: const Color(0xFF5EFF7B),
       bg: 0,
       stories: [
-        "In \"Happy Monkey\" the player finds himself in a wild tropical wilderness, where monkeys and ancient ruins create an atmosphere of exciting adventures and dangers.",
+        "In \"Banana World\" the player finds himself in a wild tropical wilderness, where monkeys and ancient ruins create an atmosphere of exciting adventures and dangers.",
         "Each level is a dense jungle, where the player must skillfully combine bananas, vines and monkeys, forming rows of three or more identical objects.",
         "For each successful combination, the player receives coins that will open new levels.",
         "The limited time pushes you to act quickly and strategically, collecting as much gold as possible.",
-        "If the task is not completed, the hero is in danger of defeat, but each new attempt brings him closer to the title of the true owner of \"Happy Monkey\""
+        "If the task is not completed, the hero is in danger of defeat, but each new attempt brings him closer to the title of the true owner of \"Banana World\""
       ],
       items: [
         Assets.slot2El1,
@@ -118,11 +118,11 @@ class _HomePageState extends State<HomePage> {
       color: const Color(0xFFFF5E5E),
       bg: 0,
       stories: [
-        "In \"Lucky Joker\" the player finds himself in a world of bright lights and mysterious attractions, where the lucky joker creates an atmosphere of bright performances and intrigue.",
+        "In \"Circus Mystic\" the player finds himself in a world of bright lights and mysterious attractions, where the Circus Mystic creates an atmosphere of bright performances and intrigue.",
         "Each level is a circus arena or a backstage area, where the player must skillfully combine fruits and gems, forming rows of three or more identical items.",
         "For each successful combination, the player receives coins that will open new levels.",
         "The limited time pushes you to act quickly and strategically, collecting as much gold as possible.",
-        "If you do not complete the task, the hero is in danger of failure, but with each new attempt he gets closer to the title of the great master of \"Lucky Joker\"",
+        "If you do not complete the task, the hero is in danger of failure, but with each new attempt he gets closer to the title of the great master of \"Circus Mystic\"",
       ],
       items: [
         Assets.slot3El1,
@@ -214,7 +214,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
-          GameTitleCard(id: pageIndex + 1),
+          // GameTitleCard(id: pageIndex + 1),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [

@@ -215,7 +215,7 @@ class _SlotPageState extends State<SlotPage> {
                     ), // SvgPicture.asset('assets/slot/count.svg'),
                   ],
                 ),
-                SvgPicture.asset('assets/game_title${widget.id}.svg'),
+                // SvgPicture.asset('assets/game_title${widget.id}.svg'),
                 const Spacer(),
                 Container(
                   height: size.width * .842,

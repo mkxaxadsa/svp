@@ -17,12 +17,12 @@ class _GameTitleCardState extends State<GameTitleCard> {
 
   String getDescriptionText() {
     if (widget.id == 2) {
-      return 'In the game “Happy Monkey” you travel through the tropical jungle, collecting rows of bananas, lianas and monkeys. For successful combinations you get coins and open new levels. Act fast to become the true owner of “Happy Monkey”';
+      return 'In the game “Banana World” you travel through the tropical jungle, collecting rows of bananas, lianas and monkeys. For successful combinations you get coins and open new levels. Act fast to become the true owner of “Banana World”';
     }
     if (widget.id == 3) {
-      return 'In the game “Lucky Joker” you get into the world of bright circus lights, where you need to collect rows of fruits and jewels. For successful combinations you get coins and open new levels. Act quickly to become a master of “Lucky Joker”';
+      return 'In the game “Circus Mystic” you get into the world of bright circus lights, where you need to collect rows of fruits and jewels. For successful combinations you get coins and open new levels. Act quickly to become a master of Circus Mystic';
     }
-    return 'In the game “Gold Buffalo” you go to the Wild West where you need to collect rows of cowboys, horses and gold bars to get coins. Each successful combination opens new levels. Limited time forces you to act fast to become a legendary gold digger.';
+    return 'In the game “Purple Magic” you go to the Wild West where you need to collect rows of cowboys, horses and gold bars to get coins. Each successful combination opens new levels. Limited time forces you to act fast to become a legendary gold digger.';
   }
 
   Color getCardBorderColor() {
